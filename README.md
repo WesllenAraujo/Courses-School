@@ -10,9 +10,9 @@ Responsive: Coming soon.
 
 ## Updates
 
-This project will have a HTML, JS and CSS code soon.
+This project will have a JS and CSS codes soon.
 
-Last update: 14/08/2023
+Last update: 15/08/2023
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
 
