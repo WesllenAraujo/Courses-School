@@ -10,9 +10,9 @@ Responsive: Coming soon.
 
 ## Updates
 
-This project will have a JS and CSS codes soon.
+Update 1.0 (16/08/2023): Header's styles added.
 
-Last update: 15/08/2023
+Last update: 16/08/2023
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
 
@@ -27,7 +27,7 @@ JS (Javascript)
 
 In this project i grow up my abilities about HTML, CSS and JS.
 
-I don't have any problem with this challenge yet. (14/08/2023).
+I don't have any problem with this challenge yet.
 
 
 
