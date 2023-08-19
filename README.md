@@ -11,7 +11,9 @@ Responsive: Coming soon.
 ## Updates
 
 Update 1.0 (16/08/2023): Header's styles added.
+
 Update 1.5 (17/08/2023): Home's section styles added, and more courses option.
+
 Update 2.0 (18/08/2023): Courses's section styles added, and more courses option.
 
 Last update: 18/08/2023.
