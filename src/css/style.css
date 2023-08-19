@@ -79,18 +79,18 @@ body.dark-mode {
     width: 20%;
     border: none;
     border-radius: 2rem;
-    background-color: #7b2595;
+    background-color: #4c175d;
     color: #fff;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
     font-weight: 700;
     cursor: pointer;
     transition: .5s;
+    border: 2px solid #4c175d;
 }
 
 #plataform-button:hover {
     background: none;
-    color: #d08fe4;
-    border: 2px solid #d08fe4;
+    color: #b165ca;
 }
 
 #home {
@@ -112,23 +112,6 @@ body.dark-mode {
 #home-title {
     font-size: 3rem;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
-}
-
-#home-button {
-    font-size: 1.5rem;
-    margin-top: 10%;
-    background-color: #7b2595;
-    width: 17rem;
-    padding: .5rem;
-    border: none;
-    border-radius: 2rem;
-    font-weight: 700;
-    transition: 1s;
-}
-
-#home-button:hover {
-    background: none;
-    border: 2px solid #4c175d;
 }
 
 #home-button-anchor {
@@ -159,4 +142,64 @@ body.dark-mode {
 .description {
     width: 60%;
     margin: 0;
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    margin: 5%;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.course-card:hover {
+    box-shadow: 10px 10px 20px #4c175d;
+}
+
+.course-img {
+    width: 15rem;
+    margin: auto;
+}
+
+.course-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.course-description {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.course-card button {
+    margin: auto;
+}
+
+.button {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    color: #fff;
+    background-color: #4c175d;
+    width: 17rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 700;
+    transition: 1s;
+    border: 2px solid #4c175d;
+}
+
+.button:hover {
+    background: none;
+    color: #4c175d;
 }
