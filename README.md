@@ -16,7 +16,9 @@ Update 1.5 (17/08/2023): Home's section styles added, and more courses option.
 
 Update 2.0 (18/08/2023): Courses's section styles added, and more courses option.
 
-Last update: 18/08/2023.
+Update 2.5 (20/08/2023): Footer's CSS styles added.
+
+Last update: 2.5v 20/08/2023.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
