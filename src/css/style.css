@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@500;700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -7,18 +6,15 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-
 body {
     background-color: #d8d8d8;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
-
 body.dark-mode {
     background-color: #383838;
     color: #fff;
 }
-
 #header {
     display: flex;
     flex-direction: column;
@@ -27,54 +23,46 @@ body.dark-mode {
     background-color: #5a5869;
     width: 100%;
 }
-
 #header-title {
     text-align: start;
     width: 50%;
     font-size: 120%;
 }
-
 #header-main {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
-
 #header-menu {
     padding-top: 1%;
 }
-
 #logo-image {
     width: 5%;
 }
-
 .menu-item {
     font-size: 110%;
     color: #fff;
     cursor: pointer;
 }
-
 #sunMoon-icon {
     width: 3rem;
     height: 3rem;
     cursor: pointer;
 }
-
 .header-secundary-content {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 10rem;
 }
-
 .menu-item:not(:nth-last-child(1)) {
     padding-right: 5rem;
 }
-
 #arrow {
     width: 1rem;
+    position: absolute;
+    margin-top: .2rem;
 }
-
 #plataform-button {
     width: 20%;
     border: none;
@@ -87,12 +75,10 @@ body.dark-mode {
     transition: .5s;
     border: 2px solid #4c175d;
 }
-
 #plataform-button:hover {
     background: none;
     color: #b165ca;
 }
-
 #home {
     margin-top: 2rem;
     display: flex;
@@ -102,26 +88,21 @@ body.dark-mode {
     flex-wrap: wrap;
     padding: 0 5%;
 }
-
 #home-text {
     display: flex;
     flex-direction: column;
     gap: 5%;
 }
-
 #home-title {
     font-size: 3rem;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
-
 #home-button-anchor {
     color: #fff;
 }
-
 #home-button-anchor:hover {
     color: #4c175d;
 }
-
 #info {
     background-color: #f0f0f0;
     margin: 5% 0 0 5%;
@@ -133,18 +114,15 @@ body.dark-mode {
     align-items: center;
     border-radius: 2rem 0 0 2rem;
 }
-
 .group {
     display: flex;
     flex-direction: row;
     gap: 10%;
 }
-
 .description {
     width: 60%;
     margin: 0;
 }
-
 #courses {
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +130,6 @@ body.dark-mode {
     justify-content: center;
     margin: 5%;
 }
-
 .course-card {
     display: flex;
     flex-direction: column;
@@ -162,30 +139,24 @@ body.dark-mode {
     border-radius: 2rem;
     transition: 1s;
 }
-
 .course-card:hover {
     box-shadow: 10px 10px 20px #4c175d;
 }
-
 .course-img {
     width: 15rem;
     margin: auto;
 }
-
 .course-title {
     font-size: 2.5rem;
     margin: 1rem 0;
 }
-
 .course-description {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
 .course-card button {
     margin: auto;
 }
-
 .button {
     font-size: 1.5rem;
     margin-top: 10%;
@@ -199,8 +170,52 @@ body.dark-mode {
     transition: 1s;
     border: 2px solid #4c175d;
 }
-
 .button:hover {
     background: none;
     color: #4c175d;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #383838;
+    color: #fff;
+    padding: 1%;
+}
+#contact-title {
+    font-size: 2rem;
+    padding-left: 2%;
+}
+#contact-form {
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+    margin-top: 1%;
+}
+#email {
+    width: 30%;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+#contact-button {
+    margin: 0;
+    width: 30%;
+    background-color: #b165ca;
+    color: #fff;
+    cursor: pointer;
+}
+#contact-button:hover {
+    border: 2px solid #b165ca;
+    background-color: transparent;
+    color: #b165ca;
+}
+.message {
+    font-size: 1.5rem;
+    display: none;
+}
+#emailError {
+    color: #c20000;
+}
+#emailSuccess {
+    color: #2ac200;
 }

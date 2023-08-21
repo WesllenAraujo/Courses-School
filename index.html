@@ -6,6 +6,7 @@
     <title>Courses School</title>
     <link rel="icon" type="image/png" href="./src/images/logo.png">
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://kit.fontawesome.com/9765ea33b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main id="content">
@@ -21,7 +22,7 @@
             <nav id="header-menu">
                 <a href="#home" class="menu-item">Início</a>
                 <a href="#info" class="menu-item">Sobre nós</a>
-                <a class="menu-item">Cursos <img src="./src/images/down-arrow.png" id="arrow" alt="Arrow"></a>
+                <a class="menu-item">Cursos <img src="./src/images/navigation-arrow.png" id="arrow" alt="Arrow"></a>
                 <a href="#contact" class="menu-item">Contato</a>
             </nav>
         </header>
@@ -97,9 +98,13 @@
             </div>
         </section>
         <section id="contact">
-            <p>Digite seu email e nos comunicaremos com você!</p>
-            <input type="text" id="email" placeholder="Digite seu melhor email.">
-            <button id="contact-button">Enviar</button>
+            <h2 id="contact-title">Digite seu email e nos comunicaremos com você!</h2>
+            <section id="contact-form">
+                <span id="emailError" class="message">Email inválido <i class="fa-solid fa-circle-exclamation" style="color: #c20000;"></i></span>
+                <span id="emailSuccess" class="message">Enviado com sucesso <i class="fa-solid fa-circle-check" style="color: #2ac200;"></i></span>
+                <input type="text" id="email" placeholder="Digite seu melhor email." id="email">
+                <button id="contact-button" class="button">Enviar</button>
+            </section>
         </section>
     </main>
 </body>
