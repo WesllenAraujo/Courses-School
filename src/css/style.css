@@ -58,7 +58,7 @@ body.dark-mode {
 .menu-item:not(:nth-last-child(1)) {
     padding-right: 5rem;
 }
-#arrow {
+.arrow {
     width: 1rem;
     position: absolute;
     margin-top: .2rem;
