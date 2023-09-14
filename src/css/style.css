@@ -49,7 +49,7 @@ body.dark-mode {
     background-color: #3c3a46;
     color: #fff;
     padding: 1rem;
-    /* display: none; */
+    display: none;
 }
 .courses-menu {
     list-style: none;
