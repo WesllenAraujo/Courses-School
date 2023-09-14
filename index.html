@@ -22,21 +22,30 @@
             <nav id="header-menu">
                 <a href="#home" class="menu-item">Início</a>
                 <a href="#info" class="menu-item">Sobre nós</a>
-                <a class="menu-item">Cursos <img src="./src/images/navigation-arrow.png" id="main-arrow" class="arrow" alt="Arrow"></a>
+                <a class="menu-item" id="courseButton">Cursos <img src="./src/images/navigation-arrow.png" id="main-arrow" class="arrow" alt="Arrow"></a>
                 <a href="#contact" class="menu-item">Contato</a>
             </nav>
-            <nav id="courses-menu">
-                <ul>
-                    <li>Tecnologia da Informação <img src="./src/images/navigation-arrow.png" class="tecnoArrow arrow" alt="Arrow"></li>
-                    <li>Administração <img src="./src/images/navigation-arrow.png" class="admArrow arrow" alt="Arrow"></li>
-                    <li>Interpessoal <img src="./src/images/navigation-arrow.png" class="interArrow arrow" alt="Arrow"></li>
-                    <li>Design <img src="./src/images/navigation-arrow.png" class="designArrow arrow" alt="Arrow"></li>
-                    <li>Geografia</li>
-                    <li>Inovação</li>
-                    <li>Qúmica</li>
-                </ul>
-            </nav>
         </header>
+        <nav class="courses-menu-navigation">
+            <ul class="courses-menu">
+                <li class="course-menu-item" id="technology">Tecnologia da Informação <img src="./src/images/navigation-arrow.png" class="arrow" alt="Arrow" id="tecArrow"></li>
+                <li class="course-menu-item">Administração</li>
+                <li class="course-menu-item" id="interpesonal">Interpessoal <img src="./src/images/navigation-arrow.png" class="arrow course-arrow" id="interArrow" alt="Arrow"></li>
+                <li class="course-menu-item">Design</li>
+                <li class="course-menu-item">Geografia</li>
+                <li class="course-menu-item">Inovação</li>
+                <li class="course-menu-item">Qúmica</li>
+            </ul>
+            <ul class="courses-menu subMenu" id="tecMenu">
+                <li class="course-menu-item">Programação</li>
+                <li class="course-menu-item">Análise de dados</li>
+            </ul>
+
+            <ul class="courses-menu subMenu" id="interMenu">
+                <li class="course-menu-item">Comunicação</li>
+                <li class="course-menu-item">Trabalho em grupo</li>
+            </ul>
+        </nav>
         <section id="home">
             <img src="./src/images/studying.gif" alt="Student on the books" id="student gif">
             <section id="home-text">
@@ -118,5 +127,6 @@
             </section>
         </section>
     </main>
+    <script src="./src/js/main.js"></script>
 </body>
 </html>
