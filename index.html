@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses School</title>
     <link rel="icon" type="image/png" href="./src/images/logo.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <script src="https://kit.fontawesome.com/9765ea33b1.js" crossorigin="anonymous"></script>
 </head>
@@ -16,7 +17,6 @@
                 <h2 id="header-title">Courses School</h2>
                 <div class="header-secundary-content">
                     <button id="plataform-button">Acessar plataforma</button>
-                    <img src="./src/images/moon-icon.png" alt="Moon icon" id="sunMoon-icon">
                 </div>
             </section>
             <nav id="header-menu">
@@ -29,21 +29,22 @@
         <nav class="courses-menu-navigation">
             <ul class="courses-menu">
                 <li class="course-menu-item" id="technology">Tecnologia da Informação <img src="./src/images/navigation-arrow.png" class="arrow" alt="Arrow" id="tecArrow"></li>
-                <li class="course-menu-item">Administração</li>
+                <li class="course-menu-item"><a href="#administration">Administração</a></li>
                 <li class="course-menu-item" id="interpesonal">Interpessoal <img src="./src/images/navigation-arrow.png" class="arrow course-arrow" id="interArrow" alt="Arrow"></li>
-                <li class="course-menu-item">Design</li>
-                <li class="course-menu-item">Geografia</li>
-                <li class="course-menu-item">Inovação</li>
-                <li class="course-menu-item">Qúmica</li>
+                <li class="course-menu-item"><a href="#design">Design</a></li>
+                <li class="course-menu-item"><a href="#geography">Geografia</a></li>
+                <li class="course-menu-item"><a href="#inovation">Inovação</a></li>
+                <li class="course-menu-item"><a href="#chemical">Química</a></li>
             </ul>
+        </nav>
+        <nav id="subCourses">
             <ul class="courses-menu subMenu" id="tecMenu">
-                <li class="course-menu-item">Programação</li>
-                <li class="course-menu-item">Análise de dados</li>
+                <li class="course-menu-item"><a href="#programing">Programação</a></li>
+                <li class="course-menu-item"><a href="#data-analyst">Análise de dados</a></li>
             </ul>
-
             <ul class="courses-menu subMenu" id="interMenu">
-                <li class="course-menu-item">Comunicação</li>
-                <li class="course-menu-item">Trabalho em grupo</li>
+                <li class="course-menu-item"><a href="#communication">Comunicação</a></li>
+                <li class="course-menu-item"><a href="#group-work">Trabalho em grupo</a></li>
             </ul>
         </nav>
         <section id="home">
@@ -62,55 +63,55 @@
             </div>
         </section>
         <section id="courses">
-            <div class="course-card">
+            <div class="course-card" id="programing">
                 <img src="./src/images/technology.svg" alt="Technology student" class="course-img">
                 <h3 class="course-title">Programação.</h3>
                 <p class="course-description">A tecnologia é a base para o futuro, aprenda programação, robótica programada, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="administration">
                 <img src="./src/images/administration.svg" alt="Administration student" class="course-img">
                 <h3 class="course-title">Administração.</h3>
                 <p class="course-description">A administração a cada dia tem evoluído, aprenda empreendedorismo, administração de empresas, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="communication">
                 <img src="./src/images/comunication.svg" alt="Comunication" class="course-img">
                 <h3 class="course-title">Comunicação.</h3>
                 <p class="course-description">Uma boa comunicação gera um trabalho próspero, aprenda a como falar em público, ter uma boa fala, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="group-work">
                 <img src="./src/images/students-group.svg" alt="Technology student" class="course-img">
                 <h3 class="course-title">Trabalho em grupo.</h3>
                 <p class="course-description">O trabalho em grupo é essencial, aprenda a como lidar com pessoas, trabalhar em grupo de maneira organizada, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
-                <img src="./src/images/dataAnalytcs.svg" alt="Data analytics student" class="course-img">
+            <div class="course-card" id="data-analyst">
+                <img src="./src/images/dataAnalyst.svg" alt="Data analytics student" class="course-img">
                 <h3 class="course-title">Análise de dados.</h3>
                 <p class="course-description">Análise de dados é muito importante, aprenda analíse de dados com python, MySQL, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="design">
                 <img src="./src/images/designer.svg" alt="Designer student" class="course-img">
                 <h3 class="course-title">Designer UX e UI.</h3>
                 <p class="course-description">Sem um design não existem um projeto agradável aos olhos, aprenda a criar design de mobile, web e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="geography">
                 <img src="./src/images/geography.svg" alt="Geography student" class="course-img">
                 <h3 class="course-title">Geografia.</h3>
                 <p class="course-description">Estudos do nosso planeta, aprenda sobre o planeta Terra, a sua origem e a história e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="inovation">
                 <img src="./src/images/inovation.svg" alt="Inovation student" class="course-img">
                 <h3 class="course-title">Inovação.</h3>
                 <p class="course-description">Inovação é um passo a frente para o sucesso, aprenda a inovar coisas novas ou em como melhorar, e muito mais!</p>
                 <button class="button">Matricule-se já!</button>
             </div>
-            <div class="course-card">
+            <div class="course-card" id="chemical">
                 <img src="./src/images/chemical.svg" alt="Chemical student" class="course-img">
                 <h3 class="course-title">Química.</h3>
                 <p class="course-description">Química está presente em tudo atualmente, aprenda vitaminas, atomística, e muito mais!</p>

@@ -11,10 +11,6 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
-body.dark-mode {
-    background-color: #383838;
-    color: #fff;
-}
 #header {
     display: flex;
     flex-direction: column;
@@ -65,11 +61,21 @@ body.dark-mode {
 .subMenu {
     padding-top: 1rem;
 }
+#subCourses {
+    display: none;
+    background-color: #3c3a46;
+    font-size: 1.5rem;
+    padding: .3rem 0 1rem 2rem;
+    color: #fff;
+}
 #tecMenu {
     display: none;
+    gap: 2rem;
+    background-color: #3c3a46;
 }
 #interMenu {
     display: none;
+    gap: 1.9rem;
 }
 #sunMoon-icon {
     width: 3rem;
@@ -85,15 +91,15 @@ body.dark-mode {
 .menu-item:not(:nth-last-child(1)) {
     padding-right: 5rem;
 }
-.arrow {
-    width: 1rem;
-    position: absolute;
-    margin-top: .5rem;
-    transition: .5s;
-}
 .course-arrow {
     margin-top: .5rem;
     margin-left: .2rem;
+}
+.arrow {
+    width: 1rem;
+    position: absolute;
+    margin-top: .3rem;
+    transition: .5s;
 }
 #plataform-button {
     width: 20%;
@@ -124,10 +130,12 @@ body.dark-mode {
     display: flex;
     flex-direction: column;
     gap: 5%;
+    font-weight: 700;
 }
 #home-title {
     font-size: 3rem;
     font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    font-weight: 700;
 }
 #home-button-anchor {
     color: #fff;
@@ -201,6 +209,7 @@ body.dark-mode {
     font-weight: 700;
     transition: 1s;
     border: 2px solid #4c175d;
+    cursor: pointer;
 }
 .button:hover {
     background: none;
