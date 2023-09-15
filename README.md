@@ -20,9 +20,11 @@ Update 2.5 (20/08/2023): Footer's CSS styles added.
 
 Update 3.0 (26/08/2023): Adding courses' menu.
 
-Update 3.5 (13/09/2023): Added courses' menu hidden event.
+Update 3.5 (13/09/2023): Added courses' menu a hidden event.
 
-Last update: 3.5v 13/09/2023.
+Update 4.0 (14/09/2023): Added the secundary courses menu a hidden event.
+
+Last update: 4.0v 14/09/2023.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
