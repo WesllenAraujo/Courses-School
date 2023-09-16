@@ -24,7 +24,9 @@ Update 3.5 (13/09/2023): Added courses' menu a hidden event.
 
 Update 4.0 (14/09/2023): Added the secundary courses menu a hidden event.
 
-Last update: 4.0v 14/09/2023.
+Update 4.5 (15/09/2023): Added the email validation.
+
+Last update: 4.5v 15/09/2023.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
