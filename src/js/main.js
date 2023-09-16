@@ -45,3 +45,26 @@ interCourse.addEventListener("click", function() {
         interArrow.style.transform = "rotate(0deg)";
     }
 })
+
+function validate() {
+    
+}
+
+let emailButton = document.getElementById("contact-button");
+
+emailButton.addEventListener("click", function() {
+    const email = document.getElementById('email').value;
+    const regex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const result = regex.test(email);
+
+    let successMessage = document.getElementById("emailSuccess");
+    let errorMessage = document.getElementById("emailError");
+
+    if(result === false) {
+        successMessage.style.display = "none";
+        errorMessage.style.display = "flex";
+    } else {
+        errorMessage.style.display = "none";
+        successMessage.style.display = "flex";;
+    }
+})
