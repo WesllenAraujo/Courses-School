@@ -100,6 +100,10 @@ body {
     position: absolute;
     margin-top: .3rem;
     transition: .5s;
+    transform: rotate(0deg);
+}
+.arrow-active {
+    transform: rotate(180deg);
 }
 #plataform-button {
     width: 30%;
@@ -239,6 +243,7 @@ body {
     font-size: 1.5rem;
     padding: .5rem;
     border-radius: 1rem;
+    color: #000;
 }
 #contact-button {
     margin: 0;
