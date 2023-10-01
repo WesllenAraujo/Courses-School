@@ -4,9 +4,9 @@
 This project is a courses school landing page. This project don't have any real course.
 ## Status
 
-Status: In process.
+Status: Finished.
 
-Responsive: Coming soon.
+Responsive: Yes.
 
 ## Updates
 
@@ -26,7 +26,9 @@ Update 4.0 (14/09/2023): Added the secundary courses menu a hidden event.
 
 Update 4.5 (15/09/2023): Added the email validation.
 
-Last update: 4.5v 15/09/2023.
+Update 5.0 (01/10/2023): Updated the courses' menu code.
+
+Last update: 5.0v 01/10/2023.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
@@ -42,7 +44,7 @@ JS (Javascript)
 
 In this project i grow up my abilities about HTML, CSS and JS.
 
-I don't have any problem with this challenge yet.
+I don't have any problem with this challenge.
 
 
 
