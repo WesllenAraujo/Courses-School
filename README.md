@@ -28,7 +28,9 @@ Update 4.5 (15/09/2023): Added the email validation.
 
 Update 5.0 (01/10/2023): Updated the courses' menu code.
 
-Last update: 5.0v 01/10/2023.
+Update 5.5 (17/11/2023: A reponsivity problem is now solved.
+
+Last update: 5.5v 11/11/2023.
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesllen-do-carmo-ara%C3%BAjo-0b1115276/)
