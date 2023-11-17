@@ -1,0 +1,89 @@
+@media(max-width: 1050px) {
+    #logo-image {
+        width: 10%;
+    }
+    #plataform-button {
+        width: 50%;
+    }
+    #main-image {
+        width: 50%;
+    }
+    .description {
+        font-size: .8em;
+        width: 100%
+    }
+    #info {
+        gap: 0;
+        padding: 2%;
+    }
+    .course-title {
+        font-size: 2rem;
+    }
+    .course-description {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    #email {
+        width: 50%;
+    }
+}
+@media(max-width: 450px) {
+    #logo-image {
+        width: 15%;
+    }
+    #header {
+        padding-top: 2%;
+    }
+    #header-title {
+        font-size: 1.5rem;
+    }
+    #header-menu {
+        padding-top: 5%;
+        flex-direction: row;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .menu-item {
+        margin-bottom: 1rem;
+    }
+    #plataform-button {
+        width: 100%;
+        font-size: .9rem;
+    }
+    .second-row {
+        padding-bottom: 2%;
+    }
+    .courses-menu {
+        flex-direction: column;
+    }
+    #student-gif {
+        width: 100%;
+    }
+    #main-image {
+        width: 100%;
+    }
+    .paragraph-group {
+        flex-wrap: wrap;
+    }
+    .description {
+        font-size: 1.5rem;
+    }
+    #contact-form {
+        flex-wrap: wrap-reverse;
+    }
+    #contact-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding: 5% 0 0 2%;
+    }
+    #email {
+        width: 56%;
+        font-size: 1rem;
+    }
+    #contact-button {
+        width: 40%;
+    }
+    .email-message {
+        padding-top: 5%;
+    }
+}

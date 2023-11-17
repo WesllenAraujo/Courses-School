@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="./src/images/logo.png">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <script src="https://kit.fontawesome.com/9765ea33b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,21 +21,25 @@
                 </div>
             </section>
             <nav id="header-menu">
-                <a href="#home" class="menu-item">Início</a>
-                <a href="#info" class="menu-item">Sobre nós</a>
-                <a class="menu-item" id="courseButton">Cursos <img src="./src/images/navigation-arrow.png" id="main-arrow" class="arrow" alt="Arrow"></a>
-                <a href="#contact" class="menu-item">Contato</a>
+                <div class="first-row">
+                    <a href="#home" class="menu-item">Início</a>
+                    <a href="#info" class="menu-item">Sobre nós</a>
+                </div>
+                <div class="second-row">
+                    <a class="menu-item" id="courseButton">Cursos <img src="./src/images/navigation-arrow.png" id="main-arrow" class="arrow" alt="Arrow"></a>
+                    <a href="#contact" class="menu-item">Contato</a>
+                </div>
             </nav>
         </header>
         <nav class="courses-menu-navigation">
             <ul class="courses-menu">
-                <li class="course-menu-item course-navigation" id="technology">Tecnologia da Informação <img src="./src/images/navigation-arrow.png" class="arrow subArrow" alt="Arrow" id="tecArrow"></li>
                 <li class="course-menu-item"><a href="#administration">Administração</a></li>
-                <li class="course-menu-item course-navigation" id="interpesonal">Interpessoal <img src="./src/images/navigation-arrow.png" class="arrow course-arrow subArrow" id="interArrow" alt="Arrow"></li>
                 <li class="course-menu-item"><a href="#design">Design</a></li>
                 <li class="course-menu-item"><a href="#geography">Geografia</a></li>
                 <li class="course-menu-item"><a href="#inovation">Inovação</a></li>
                 <li class="course-menu-item"><a href="#chemical">Química</a></li>
+                <li class="course-menu-item course-navigation" id="technology">Tecnologia da Informação <img src="./src/images/navigation-arrow.png" class="arrow subArrow" alt="Arrow" id="tecArrow"></li>
+                <li class="course-menu-item course-navigation" id="interpesonal">Interpessoal <img src="./src/images/navigation-arrow.png" class="arrow course-arrow subArrow" id="interArrow" alt="Arrow"></li>
             </ul>
         </nav>
         <nav id="subCourses">
@@ -48,7 +53,7 @@
             </ul>
         </nav>
         <section id="home">
-            <img src="./src/images/studying.gif" alt="Student on the books" id="student gif">
+            <img src="./src/images/studying.gif" alt="Student on the books" id="student-gif">
             <section id="home-text">
                 <h1 id="home-title">Courses School</h1>
                 <h2 id="home-subtitle">Escola virtual</h2>
@@ -56,8 +61,8 @@
             </section>
         </section>
         <section id="info">
-            <img src="./src/images/students.svg" alt="Students">
-            <div class="group">
+            <img src="./src/images/students.svg" alt="Students" id="main-image">
+            <div class="paragraph-group">
                 <p class="description">A Courses School é uma escola virtual que transmite vários conhecimentos de inúmeras áreas do mercado de trabalho e para o desenvolvimento pessoal e interpessoal.</p>
                 <p class="description">O principal objetivo da Courses School é transformar a vida de pessoas através de uma boa didádica e constância, gerando muitos profissionais qualificados.</p>
             </div>
@@ -121,8 +126,10 @@
         <section id="contact">
             <h2 id="contact-title">Digite seu email e nos comunicaremos com você!</h2>
             <section id="contact-form">
-                <span id="emailError" class="message">Email inválido <i class="fa-solid fa-circle-exclamation" style="color: #c20000;"></i></span>
-                <span id="emailSuccess" class="message">Enviado com sucesso <i class="fa-solid fa-circle-check" style="color: #2ac200;"></i></span>
+                <div class="email-message">
+                    <span id="emailError" class="message">Email inválido <i class="fa-solid fa-circle-exclamation icon" style="color: #c20000;"></i></span>
+                    <span id="emailSuccess" class="message">Enviado com sucesso <i class="fa-solid fa-circle-check icon" style="color: #2ac200;"></i></span>
+                </div>
                 <input type="text" id="email" placeholder="Digite seu melhor email." id="email">
                 <button id="contact-button" class="button">Enviar</button>
             </section>
