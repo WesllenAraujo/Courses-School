@@ -1,7 +1,7 @@
 
 # Courses School - 2023
 
-This project is a courses school landing page. This project don't have any real course.
+This project is a courses school landing page. This project don't have any real course, it's just an simulation.
 ## Status
 
 Status: Finished.
